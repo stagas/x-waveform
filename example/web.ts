@@ -1,5 +1,5 @@
 import { fetchAudioBuffer } from 'webaudio-tools'
-import { WaveformElement } from '../src'
+import { WaveformElement } from '../dist/esm'
 
 customElements.define('x-waveform', WaveformElement)
 document.body.innerHTML = `
